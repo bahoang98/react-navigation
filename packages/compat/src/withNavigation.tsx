@@ -1,7 +1,7 @@
 import * as React from 'react';
-import type { NavigationProp, ParamListBase } from '@react-navigation/native';
+import { NavigationProp, ParamListBase } from '@react-navigation/native';
 import useCompatNavigation from './useCompatNavigation';
-import type { CompatNavigationProp } from './types';
+import { CompatNavigationProp } from './types';
 
 type InjectedProps<T extends NavigationProp<ParamListBase>> = {
   navigation: CompatNavigationProp<T>;

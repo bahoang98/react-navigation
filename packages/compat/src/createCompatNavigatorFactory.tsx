@@ -11,7 +11,7 @@ import {
 import CompatScreen from './CompatScreen';
 import ScreenPropsContext from './ScreenPropsContext';
 import createCompatNavigationProp from './createCompatNavigationProp';
-import type { CompatScreenType, CompatRouteConfig } from './types';
+import { CompatScreenType, CompatRouteConfig } from './types';
 
 export default function createCompatNavigatorFactory<
   CreateNavigator extends () => TypedNavigator<
